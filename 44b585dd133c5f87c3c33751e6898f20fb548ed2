@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_ec9f96b2",
+        "filename": "source/getting_started/getting_started.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T08:52:56Z",
+      "side": 1,
+      "message": "It is linear for user if he follows the flow in the main menu:\n* Environments\n* Installation\n* Getting Started\n\nIn this flow, user just should make sure he has the environment and installation done. If he does not, these links are pointing him there.",
+      "parentUuid": "1a106d94_f1900f45",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_b177b739",
         "filename": "source/getting_started/getting_started.rst",
         "patchSetId": 3
@@ -53,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_4c706aa5",
+        "filename": "source/getting_started/getting_started.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T08:52:56Z",
+      "side": 1,
+      "message": "Oh, I forgot to remove the link after I commented this block out.\n\nIt is not supported at the moment. Though it will be the main supported way in the future (CI will produce latest stable images for us). So the same way we have master latest docs, we will have related images to that. This is not ready yet, so it is commented out. I will remove the link though.",
+      "parentUuid": "1a106d94_b177b739",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_7196df4d",
         "filename": "source/getting_started/getting_started.rst",
         "patchSetId": 3
@@ -64,6 +100,24 @@
       "writtenOn": "2015-04-16T00:18:42Z",
       "side": 1,
       "message": "The level of detail in this block should _never_ be exposed to users.  They do not need to know about associating ramdisks and kernels with an image.  If we\u0027re not going to use the instack scripts for this then it needs an implementation in the unified CLI.",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_8c69c2c0",
+        "filename": "source/getting_started/getting_started.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T08:52:56Z",
+      "side": 1,
+      "message": "I agree we need improvements in the unified CLI. But this is already present in the unified CLI and we can iterate on that. I disagree that we should NOT expose this to the user. It is more details than we want to show in the end, but based on my opinion this is the way to go.",
+      "parentUuid": "1a106d94_7196df4d",
       "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
@@ -93,6 +147,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_ac5e3e10",
+        "filename": "source/getting_started/getting_started.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T08:52:56Z",
+      "side": 1,
+      "message": "Agree, internal link should be removed. I will test if instack-build-images generates that correctly.",
+      "parentUuid": "1a106d94_5178032b",
+      "range": {
+        "startLine": 154,
+        "startChar": 4,
+        "endLine": 154,
+        "endChar": 8
+      },
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_318587d0",
         "filename": "source/index.rst",
         "patchSetId": 3
@@ -110,6 +188,24 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_4ca7ca0c",
+        "filename": "source/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T08:52:56Z",
+      "side": 1,
+      "message": "Maybe we should name the section differently (I took some suggestions). User needs to prepare his environment and install the rdo-manager. Then he can actually get started working with rdo-manager, so that\u0027s why this section is on that position.",
+      "parentUuid": "1a106d94_318587d0",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_11eccbc6",
         "filename": "source/introduction/projects.rst",
         "patchSetId": 3
@@ -121,6 +217,24 @@
       "writtenOn": "2015-04-16T00:18:42Z",
       "side": 1,
       "message": "I feel rather strongly that this does not belong in the rdo-manager docs.  There\u0027s nothing specific to rdo-manager here.\n\nAt most, we should be linking to upstream (or even downstream RDO) docs about these services that are not specific to rdo-manager.  If those docs are insufficient, then they need to be improved for everyone, not just rdo-manager users.",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_ccba9a22",
+        "filename": "source/introduction/projects.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1003879
+      },
+      "writtenOn": "2015-04-16T08:52:56Z",
+      "side": 1,
+      "message": "I disagree with your first paragraph. Ironic is huge part of RDO-Manager. RDO-Manager is set of integrated projects which helps you to install and manage RDO. Without Ironic you will not be able to do anything. So why shouldn\u0027t we mention it among the components we are using?\n\nAs for the second paragraph, if you read it through, it just explains it mission in 2 sentences and points to upstream docs. So what is wrong with this section?",
+      "parentUuid": "1a106d94_11eccbc6",
       "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
