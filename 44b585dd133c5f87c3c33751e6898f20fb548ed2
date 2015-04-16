@@ -1,0 +1,129 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_5122c301",
+        "filename": "source/_themes/sphinx_rtd_theme/__init__.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-16T00:18:42Z",
+      "side": 1,
+      "message": "Please don\u0027t copy-paste a sphinx theme wholesale like this.  It\u0027s available via pip, so all it will take is a \"sphinx_rtd_theme\" line in test_requirements to get it installed.",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_f1900f45",
+        "filename": "source/getting_started/getting_started.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-16T00:18:42Z",
+      "side": 1,
+      "message": "This is an awkward flow: Getting started to virt-setup back to Getting started to installation back to Getting started.  Why not just do it linearly like the current docs do?",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_b177b739",
+        "filename": "source/getting_started/getting_started.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-16T00:18:42Z",
+      "side": 1,
+      "message": "Internal file path.  Also, until things have stabilized a lot more I\u0027m -1 on pre-built images.  We don\u0027t test that way and there\u0027s too much changing right now to also worry about whether someone just has old images.",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_7196df4d",
+        "filename": "source/getting_started/getting_started.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-16T00:18:42Z",
+      "side": 1,
+      "message": "The level of detail in this block should _never_ be exposed to users.  They do not need to know about associating ramdisks and kernels with an image.  If we\u0027re not going to use the instack scripts for this then it needs an implementation in the unified CLI.",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_5178032b",
+        "filename": "source/getting_started/getting_started.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-16T00:18:42Z",
+      "side": 1,
+      "message": "Internal file reference\n\nAlso, this is now taken care of by instack-build-images.",
+      "range": {
+        "startLine": 154,
+        "startChar": 4,
+        "endLine": 154,
+        "endChar": 8
+      },
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_318587d0",
+        "filename": "source/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-16T00:18:42Z",
+      "side": 1,
+      "message": "Getting started should really come before Environments and Installation.  It\u0027s extremely confusing right now because those two pages assume you\u0027ve already run some of the Getting Started steps first.",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_11eccbc6",
+        "filename": "source/introduction/projects.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1003493
+      },
+      "writtenOn": "2015-04-16T00:18:42Z",
+      "side": 1,
+      "message": "I feel rather strongly that this does not belong in the rdo-manager docs.  There\u0027s nothing specific to rdo-manager here.\n\nAt most, we should be linking to upstream (or even downstream RDO) docs about these services that are not specific to rdo-manager.  If those docs are insufficient, then they need to be improved for everyone, not just rdo-manager users.",
+      "revId": "44b585dd133c5f87c3c33751e6898f20fb548ed2",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
